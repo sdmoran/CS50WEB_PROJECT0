@@ -1,0 +1,19 @@
+.card .btn-primary, .navbar {
+  background: #fff3f4;
+  color: hotpink;
+  border: red;
+  outline: red; }
+
+h1 {
+  color: hotpink; }
+
+.card {
+  text-align: center;
+  align-content: center; }
+
+.navbar .navbar-brand {
+  color: hotpink; }
+
+@media (min-width: 600px) {
+  #responsive {
+    display: none; } }

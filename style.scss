@@ -1,0 +1,37 @@
+$background: #fff3f4;
+$primary: hotpink;
+$highlight: red;
+
+%theme-colors {
+    background: $background;
+    color: $primary;
+    border: $highlight;
+    outline: $highlight;
+}
+
+
+h1 {
+    color: $primary;
+}
+
+.card {
+    text-align: center;
+    align-content: center;
+    .btn-primary {
+        @extend %theme-colors;
+    }
+
+}
+
+.navbar {
+    @extend %theme-colors;
+    .navbar-brand {
+        color: $primary;
+    }
+}
+
+@media (min-width: 600px) {
+    #responsive {
+        display: none
+    }
+}
